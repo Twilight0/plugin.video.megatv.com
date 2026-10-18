@@ -1,0 +1,227 @@
+# Addon Name: MEGA Player
+# Addon id: plugin.video.megatv.com
+# Addon Provider: Twilight0
+msgid ""
+msgstr ""
+"Project-Id-Version: MEGA Player\n"
+"POT-Creation-Date: 2026-10-17 20:00+0000\n"
+"PO-Revision-Date: 2026-10-17 20:00+0000\n"
+"Last-Translator: twilight0\n"
+"Language-Team: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#30001"
+msgid "Live stream"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Series"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Latest"
+msgstr ""
+
+msgctxt "#30005"
+msgid "General"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Bookmarks"
+msgstr ""
+
+msgctxt "#30007"
+msgid "TV shows"
+msgstr ""
+
+msgctxt "#30010"
+msgid "News"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Sports"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Mega Kids"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Documentaries"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Episodes not found"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Flashback"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Entertainment shows"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Pemptousia+"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Mega Classics"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Archive"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Season 2025-2026"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Collections"
+msgstr ""
+
+msgctxt "#30023"
+msgid "Golden Classics"
+msgstr ""
+
+msgctxt "#30025"
+msgid "MegaNews"
+msgstr ""
+
+msgctxt "#30027"
+msgid "Comedy"
+msgstr ""
+
+msgctxt "#30028"
+msgid "Drama"
+msgstr ""
+
+msgctxt "#30029"
+msgid "Trailer"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Clear function cache"
+msgstr ""
+
+msgctxt "#30026"
+msgid "Settings"
+msgstr ""
+
+msgctxt "#30026"
+msgid "Settings"
+msgstr ""
+
+msgctxt "#30030"
+msgid "Previous page"
+msgstr ""
+
+msgctxt "#30031"
+msgid "Next page"
+msgstr ""
+
+msgctxt "#30033"
+msgid "Could not load the listing"
+msgstr ""
+
+msgctxt "#30034"
+msgid "Could not resolve the stream"
+msgstr ""
+
+msgctxt "#30055"
+msgid "Page {0}/{1}"
+msgstr ""
+
+msgctxt "#30056"
+msgid "Go to page"
+msgstr ""
+
+msgctxt "#30057"
+msgid "Page overlay position"
+msgstr ""
+
+msgctxt "#30058"
+msgid "Top-right"
+msgstr ""
+
+msgctxt "#30059"
+msgid "Top-left"
+msgstr ""
+
+msgctxt "#30060"
+msgid "Bottom-right"
+msgstr ""
+
+msgctxt "#30061"
+msgid "Bottom-left"
+msgstr ""
+
+msgctxt "#30062"
+msgid "Page overlay horizontal padding"
+msgstr ""
+
+msgctxt "#30063"
+msgid "Page overlay vertical padding"
+msgstr ""
+
+msgctxt "#30070"
+msgid "Mega TV"
+msgstr ""
+
+msgctxt "#30071"
+msgid "Programme"
+msgstr ""
+
+msgctxt "#30079"
+msgid "All sections"
+msgstr ""
+
+msgctxt "#30087"
+msgid "Search"
+msgstr ""
+
+msgctxt "#30088"
+msgid "New search"
+msgstr ""
+
+msgctxt "#30089"
+msgid "Delete"
+msgstr ""
+
+msgctxt "#30090"
+msgid "Delete all"
+msgstr ""
+
+msgctxt "#30080"
+msgid "Close"
+msgstr ""
+
+msgctxt "#30081"
+msgid "NOW"
+msgstr ""
+
+msgctxt "#30082"
+msgid "Pick a day, then a show"
+msgstr ""
+
+msgctxt "#30402"
+msgid "Success"
+msgstr ""
+
+msgctxt "#30500"
+msgid "Next..."
+msgstr ""
+
+msgctxt "#30501"
+msgid "Add to bookmarks"
+msgstr ""
+
+msgctxt "#30502"
+msgid "Remove from bookmarks"
+msgstr ""
