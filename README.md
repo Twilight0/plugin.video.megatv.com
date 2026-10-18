@@ -33,29 +33,67 @@ MEGA live and on-demand broadcasts for Kodi — https://www.megatv.com
   indicator overlay (configurable position), jump-to-page dialog and
   function-cache clearing from settings or the context menu.
 
-## Requirements
+## Compatibility & Requirements
 
-- Kodi 20+ (Nexus) with Python 3
-- `script.module.tulip` ≥ 4.1.5
-- `script.module.urldispatcher` 1.1.0
-- `script.module.netclient` 1.2.0
-- `script.module.unicache` 1.0.1
-- `script.module.resolveurl` ≥ 5.1.210
-- `script.module.resolveurl.pluginsgr` ≥ 0.3.2 (provides the MegaTV
-  resolver; 0.3.9+ covers every video URL shape the site serves)
-- `inputstream.adaptive` (optional, for HLS/DASH VOD)
+Tested on Kodi 20 (Nexus) and 21 (Omega), all platforms Kodi supports.
+
+The addon leverages lightweight modular dependencies hosted on the
+Twilight0 repositories:
+
+- `script.module.tulip` (4.1.5+) — modern Kodi Python framework.
+- `script.module.urldispatcher` — URL routing.
+- `script.module.netclient` — HTTP requests and session management.
+- `script.module.unicache` — disk and memory caching layer.
+- `script.module.resolveurl` (5.1.210+) — primary video host resolvers.
+- `script.module.resolveurl.pluginsgr` (0.3.2+, 0.3.9 recommended) —
+  dedicated resolvers for official Greek broadcast portals, including
+  the MegaTV resolver this addon plays through.
+- `inputstream.adaptive` (Kodi built-in binary addon, optional) —
+  required for HLS/DASH adaptive VOD playback.
 
 ## Installation
 
-> The addon has not been published to a repository yet. Until it is,
-> install it manually:
+### Method 1: Via Twilight0 Repository (Recommended)
 
-1. Download or clone this repository and zip the
-   `plugin.video.megatv.com` folder (the zip must contain `addon.xml`
-   at its root).
-2. In Kodi go to **Add-ons → Install from zip file** and select the zip.
-3. Kodi resolves the dependencies automatically; make sure the
-   **Twilight0 Libs** modules (tulip, PluginsGR, …) are installed.
+Installing via the repository ensures all dependencies, resolvers, and
+future updates are installed automatically:
+
+1. In Kodi, navigate to **Settings** (gear icon) → **File Manager** →
+   **Add source**.
+2. Select `<None>` and enter the following URL:
+   ```text
+   https://twilight0.github.io/repository.twilight0/
+   ```
+3. Enter a name for the media source (e.g. `Twilight0 Repo`) and click
+   **OK**.
+4. Go back to Kodi's home screen, click **Add-ons** → **Add-on browser**
+   (open box icon at top left).
+5. Select **Install from zip file** (enable *Unknown sources* in Kodi
+   settings if prompted).
+6. Select `Twilight0 Repo` and click `repository.twilight0-2.0.zip`.
+7. Once the repository is installed, select **Install from repository**
+   → **Twilight0 Repository** → **Video add-ons** → **MEGA Player** →
+   **Install**.
+
+### Method 2: Direct Zip Download
+
+You can also download the repository ZIP file directly:
+
+- Repository ZIP: [repository.twilight0.zip](https://raw.githubusercontent.com/Twilight0/repository.twilight0/gh-pages/repository.twilight0.zip)
+
+After downloading, in Kodi go to **Add-ons** → **Add-on browser** →
+**Install from zip file** and select the downloaded file, then continue
+from step 7 of Method 1 above.
+
+## Recommended configuration
+
+For the best streaming experience:
+
+1. Ensure **InputStream Adaptive** is enabled:
+   - Kodi **Settings** → **Add-ons** → **My add-ons** →
+     **VideoPlayer InputStream** → **InputStream Adaptive** → **Enable**.
+2. In MEGA Player settings you can adjust the page indicator overlay
+   position and margins used in long listings.
 
 ## Usage
 
@@ -90,6 +128,15 @@ Scrapers live in `resources/lib/api.py` (pure HTML/REST parsing, no Kodi
 imports needed for listing logic), navigation in `resources/lib/navigator.py`
 and resolution handoff in `resources/lib/player.py`. The stack mirrors the
 sibling STAR / SKAI / Alpha players.
+
+## Bug reporting
+
+File issues at [Twilight0/plugin.video.megatv.com](https://github.com/Twilight0/plugin.video.megatv.com/issues).
+
+> Disclaimer: the author does not host, stream, or distribute any of the
+> media content displayed within this software. All streams and on-demand
+> links are parsed from publicly available domains on the internet. This
+> addon acts strictly as a directory and search client.
 
 ## License
 
